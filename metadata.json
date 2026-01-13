@@ -1,0 +1,5 @@
+{
+  "name": "Invoice Flow",
+  "description": "A peer-to-peer Bitcoin (BTC) electronic payment system for creating, sharing, and tracking professional invoices.",
+  "requestFramePermissions": []
+}
