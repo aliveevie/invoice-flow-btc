@@ -15,6 +15,12 @@ View your app in AI Studio: https://ai.studio/apps/drive/1UZkn2yQ00FQKWk45j4YJi-
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Provide a Gemini API key (either option):
+   - Option A: create `.env.local` from `.env.example` and set `GEMINI_API_KEY`
+   - Option B: run the app and add a key in the in-app AI assistant (stored in your browser)
 3. Run the app:
    `npm run dev`
+
+## Wallet Connect
+
+The Create Invoice screen includes a **Connect Wallet** helper that can autofill your receiving BTC address from a compatible browser wallet extension (when available).
